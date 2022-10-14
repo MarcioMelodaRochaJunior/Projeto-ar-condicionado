@@ -1,7 +1,7 @@
 :root {
-    --primary: #1B1B2A;
-    --secondary: #242538;
-    --terciary: #FFFFFF;
+    --primary: black;
+    --secondary: violet;
+    --terciary: white;
     --quaternary: #5865F2;
     --green: #27AF69;
     --red: #DC3615;
@@ -70,7 +70,7 @@ div:last-child {
     color: var(--terciary);
 }
 
-/* MAIN */
+
 main {
     display: flex;
     flex-direction: row;
@@ -87,7 +87,7 @@ main {
     margin-top: 30px;
 }
 
-/* CARD */
+
 
 .ativado {
     border-bottom: 5px solid var(--green);
@@ -137,7 +137,7 @@ h2 {
     color: var(--terciary);
 }
 
-/* STATUS*/
+
 
 .status {
     width: 361px;
@@ -166,7 +166,7 @@ h2 {
     color: var(--terciary);
 }
 
-/* FOOTER */
+
 footer {
     margin-top: 70px;
     padding: 22px;
